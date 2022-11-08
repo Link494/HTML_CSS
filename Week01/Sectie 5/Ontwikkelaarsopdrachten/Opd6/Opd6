@@ -1,0 +1,2 @@
+@import zorgt er voor dat je een stylesheet kan importen in een andere stylesheet.
+Je kan dan bijvoorbeeld alle div's in een aparte stylesheet doen.
