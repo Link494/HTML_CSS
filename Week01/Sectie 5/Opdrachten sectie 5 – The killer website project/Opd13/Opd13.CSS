@@ -1,0 +1,12 @@
+img {
+  position: absolute;
+  width: 250px;
+  height: auto;
+  top: 30%;
+  left: 25%;
+}
+.div1 {
+  position: absolute;
+  top: 30%;
+  left: 43%;
+}

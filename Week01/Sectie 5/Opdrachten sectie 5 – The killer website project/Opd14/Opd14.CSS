@@ -1,0 +1,18 @@
+img {
+  position: absolute;
+  width: 250px;
+  height: auto;
+  top: 30%;
+  left: 25%;
+}
+.div1 {
+  position: absolute;
+  top: 25%;
+  left: 43%;
+}
+button {
+  text-decoration: none;
+  border-color: #e8c272;
+  background-color: #fee3c5;
+  border-radius: 30px;
+}
