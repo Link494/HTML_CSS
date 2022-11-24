@@ -1,0 +1,22 @@
+.flex-container {
+  display: flex;
+
+  border: 4px;
+  border-color: black;
+  border-style: solid;
+
+  flex-wrap: wrap;
+  width: 800px;
+  height: 400px;
+  flex-direction: row-reverse;
+}
+.flex__child {
+  height: 100px;
+  text-align: center;
+  line-height: 200px;
+  border: 2px;
+  width: 130px;
+  height: 197px;
+  border-color: green;
+  border-style: solid;
+}

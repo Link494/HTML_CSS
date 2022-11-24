@@ -1,0 +1,17 @@
+.flex-container {
+  display: flex;
+  background-color: white;
+  border: 4px;
+  border-color: black;
+  border-style: solid;
+  margin-right: 50%;
+}
+.flex__child {
+  height: 550px;
+
+  border: 2px;
+  padding: 60px;
+
+  border-color: green;
+  border-style: solid;
+}

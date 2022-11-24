@@ -1,0 +1,23 @@
+.flex-container {
+  display: flex;
+
+  border: 4px;
+  border-color: black;
+  border-style: solid;
+
+  flex-wrap: wrap;
+  width: 800px;
+  height: 400px;
+  flex-direction: column-reverse;
+}
+.flex__child {
+  height: 100px;
+  text-align: center;
+  line-height: 165px;
+  border: 2px;
+  width: 156px;
+  height: 160px;
+  border-color: green;
+  border-style: solid;
+  margin-top: 20px;
+}

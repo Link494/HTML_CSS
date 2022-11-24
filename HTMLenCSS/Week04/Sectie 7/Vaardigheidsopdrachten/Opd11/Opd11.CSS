@@ -1,0 +1,21 @@
+.flex-container {
+  display: flex;
+
+  border: 4px;
+  border-color: black;
+  border-style: solid;
+
+  flex-wrap: wrap;
+  width: 800px;
+  height: 400px;
+}
+.flex__child {
+  height: 100px;
+  text-align: center;
+
+  border: 2px;
+  width: 140px;
+  height: 20px;
+  border-color: green;
+  border-style: solid;
+}
