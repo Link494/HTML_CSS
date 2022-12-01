@@ -1,0 +1,86 @@
+body {
+  background-color: #ff8585;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 175px);
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  align-content: flex-start;
+  gap: 20px;
+  width: 600px;
+  height: 475px;
+  grid-template-areas: "B C F" "A C F" "A . D" "A . D" "E . G";
+}
+.grid-itemA {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  height: 200px;
+  line-height: 100px;
+  width: 100px;
+
+  grid-row: 2/2;
+  grid-area: A;
+}
+.grid-itemB {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  height: 50px;
+  width: 75px;
+  line-height: 75px;
+  grid-row: 1/1;
+  grid-area: B;
+}
+.grid-itemC {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  height: 80%;
+  line-height: 75px;
+  grid-row: 1/2;
+  grid-area: C;
+}
+.grid-itemD {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  height: 80%;
+  line-height: 75px;
+  width: 100%;
+  grid-row: 2/3;
+  grid-area: D;
+}
+.grid-itemE {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  height: 65px;
+  line-height: 75px;
+  width: 310px;
+  grid-row: 3/3;
+  grid-area: E;
+}
+.grid-itemF {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  height: 80%;
+  width: 100%;
+  line-height: 50px;
+  grid-row: 1/3;
+  grid-area: F;
+}
+.grid-itemG {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  height: 65px;
+  line-height: 65px;
+  width: 170px;
+  grid-row: 3/3;
+  grid-area: G;
+}

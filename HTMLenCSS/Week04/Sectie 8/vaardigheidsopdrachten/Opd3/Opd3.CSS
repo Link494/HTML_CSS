@@ -1,0 +1,15 @@
+body {
+  background-color: #ff8585;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 100px);
+}
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  height: 500px;
+  line-height: 450px;
+}

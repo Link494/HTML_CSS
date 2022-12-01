@@ -1,0 +1,19 @@
+body {
+  background-color: #ff8585;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 100px);
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  width: 600px;
+}
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  height: 200px;
+  line-height: 200px;
+}
