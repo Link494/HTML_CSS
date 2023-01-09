@@ -1,0 +1,14 @@
+.container {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-gap: 20px;
+  grid-template-columns:
+    minmax(50px, 15rem)
+    minmax(100px, 25rem)
+    minmax(min-content, 25rem);
+}
+.item {
+  background-color: aqua;
+  padding: 8px;
+}

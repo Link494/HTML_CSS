@@ -1,0 +1,38 @@
+body {
+  background-color: bisque;
+}
+.titel {
+  text-align: center;
+  font-size: 30px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 750px);
+  padding: 2px;
+  gap: 5px;
+  background-color: #ffccff;
+  border-style: dashed;
+  border-color: black;
+}
+.grid-container-child {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  padding: 5px;
+  height: 600px;
+}
+
+.grid-item {
+  background-color: #ffccff;
+  border-style: dotted;
+  border-color: gray;
+  text-align: center;
+  margin-top: 10px;
+  height: 40px;
+}
+.grid-item-child1 {
+  background-color: #ff80ff;
+}
+.grid-item-child2 {
+  background-color: #ffccff;
+}
