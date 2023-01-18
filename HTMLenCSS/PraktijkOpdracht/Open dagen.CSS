@@ -1,0 +1,28 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: sans-serif;
+  border: 2px;
+  border-style: solid;
+  border-color: #e60013;
+}
+
+li a:hover:not(.active) {
+  background-color: #e60013;
+  color: white;
+}

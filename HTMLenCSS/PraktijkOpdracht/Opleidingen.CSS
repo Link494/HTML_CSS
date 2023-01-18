@@ -1,0 +1,77 @@
+/*hieronder de navigatie*/
+#grad1 {
+  position: absolute;
+  top: 150px;
+  left: 0px;
+  width: 100%;
+  height: 1500px;
+  background-color: white;
+  background-image: linear-gradient(white, #ff4b4b);
+}
+
+.logo {
+  position: absolute;
+  width: 10%;
+  height: auto;
+  left: 1px;
+  top: 1px;
+  margin: 15px;
+}
+.titel {
+  position: absolute;
+  left: 45%;
+  top: 5px;
+  font-family: sans-serif;
+}
+
+ul {
+  position: fixed;
+  top: 1px;
+  right: 1px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  border: 3px #e60013;
+  border-style: solid;
+  width: max-width;
+}
+@media only screen and (max-width: 1200px) {
+  ul {
+    position: absolute;
+  }
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: sans-serif;
+  border: 2px;
+  border-style: solid;
+  border-color: #e60013;
+}
+
+li a:hover:not(.active) {
+  background-color: #e60013;
+  color: white;
+}
+/*hierboven de navigatie*/
+
+/*onderkant pagina*/
+footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0%;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(252, 63, 63);
+  color: white;
+}
