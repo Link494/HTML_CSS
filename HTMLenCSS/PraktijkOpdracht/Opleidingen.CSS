@@ -4,7 +4,7 @@
   top: 150px;
   left: 0px;
   width: 100%;
-  height: 1500px;
+  height: 1300px;
   background-color: white;
   background-image: linear-gradient(white, #ff4b4b);
 }
@@ -64,7 +64,46 @@ li a:hover:not(.active) {
   color: white;
 }
 /*hierboven de navigatie*/
+.tekst {
+  display: inline-block;
+  text-align: center;
+  font-family: sans-serif;
+  padding: 10px;
+}
+@media only screen and (min-width: 1000px) {
+  .tekst {
+    padding-left: 42px;
+    padding-right: 42px;
+  }
+}
+.grid-container {
+  display: grid;
+  position: absolute;
+  margin-left: 32%;
+  gap: 10px;
+  width: 35%;
+  grid-template-rows: repeat(4, 300px);
+  margin-top: 10%;
+}
+.grid-container :hover:not(.active) {
+  scale: 1.05;
+}
+@media only screen and (max-width: 900px) {
+  .grid-container {
+    width: 60%;
+    margin-left: 20%;
+  }
+  .tekst {
+    padding: 10px;
+  }
+}
 
+.grid-item {
+  border: 3px black;
+  border-style: solid;
+  border-radius: 15px;
+  background-color: white;
+}
 /*onderkant pagina*/
 footer {
   position: fixed;

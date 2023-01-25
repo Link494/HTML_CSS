@@ -1,9 +1,17 @@
+.logo {
+  position: absolute;
+  width: 30px;
+  height: auto;
+  left: 1px;
+  top: 1px;
+  margin: 15px;
+}
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(255, 188, 112);
+  background-color: white;
 }
 
 li {
@@ -34,7 +42,7 @@ li a:hover:not(.active) {
 body {
   margin: 0;
   font-family: Arial;
-  background-color: rgb(249, 165, 70);
+  background-color: white;
 }
 
 .header {
@@ -58,6 +66,9 @@ body {
 .column img {
   margin-top: 8px;
   vertical-align: middle;
+}
+img:hover:not(.active) {
+  scale: 1.1;
 }
 
 @media (max-width: 1200px) {
